@@ -22,7 +22,7 @@
 Para fines prácticos se realizaron dos registros que deberían estar cargados en la base de datos de django una vez que se ingrese con el superusuario, con estos registros, se puede ejecutar la api desde sus urls definidos en el proyecto, e indicados a continuación:
 
 - Para ingresar al administrador de Django:   127.0.0.1:8000/admin
-- Método buscar por patente: 127.0.0.1:8000/buscarPatente/XXXXXXX/   *las X se reemplazan por la patente a buscar (valor alfanumérico de 4 letras y 4 números)
+- Método buscar por patente: 127.0.0.1:8000/buscarPatente/XXXXXXX/   *las X se reemplazan por la patente a buscar (valor alfanumérico de 4 letras y 3 números)
 - Método buscar por id: 127.0.0.1:8000/buscarID/XXXXX/ *Las X se reemplazan por el id a buscar (debe ser numérico)
 
 En caso de encontrar coincidencias, se mostrará la información por pantalla, de lo contrario, indicará que no se ha encontrado el registro que se busca.
